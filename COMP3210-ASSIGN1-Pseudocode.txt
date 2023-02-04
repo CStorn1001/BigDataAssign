@@ -1,0 +1,54 @@
+Task 2 - Number of occurances of words within tweets
+
+BEGIN
+
+compile preprocessing words <- compiling words on each line of the preprocessed text file
+CLASS number of occurances():
+	METHOD mapper(words):
+	   FOR LOOP through all compile processing words
+	      RETURN each word with the number 1
+	
+	METHOD reducer(words)
+		RETURN each word and its total sum of occurances
+		
+RUN number of occurances class
+
+END
+  
+  
+  
+Task 3 - Number occurances of Australian cities in post locations
+
+BEGIN
+
+compile preprocessing words <- compiling words on each line of the preprocessed text file
+CLASS number of Australin city occurances():
+	METHOD mapper(city):
+	   FOR LOOP through all compile processing city words
+	      RETURN each city with the number 1
+	
+	METHOD reducer(city)
+		RETURN each city and its total sum of occurances
+		
+RUN number of Australin city occurances class
+
+END
+
+BEGIN 
+
+compile objectids <- compiling objectids on each line of the preprocessed text file
+CLASS merge sorting ids():
+	METHOD mapper(ids):
+		FOR LOOP through all ids
+			RETURN each id as integer and with number 1
+	
+	METHOD reducer(ids):
+	    RETURN ids and total sum of occurances 
+
+ENABLE SORTING as TRUE (ascending)
+
+RUN merge sorting ids
+
+END
+
+		

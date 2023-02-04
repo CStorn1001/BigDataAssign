@@ -1,0 +1,8 @@
+"Adelaide"	242
+"Brisbane"	606
+"Canberra"	51
+"Darwin"	14
+"Hobart"	24
+"Melbourne"	805
+"Perth"	201
+"Sydney"	943
